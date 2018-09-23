@@ -287,3 +287,25 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+.card {
+  border: solid black 2px;
+  /* max-height: 200px;
+  max-width: 200px; */
+}
+
+.card-text header {
+  margin-bottom: 0;
+}
+
+.card-img-top {
+  max-width: 50%;
+  max-height: 50%;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+#dLogo {
+  max-height: 20%;
+  max-width: 30%;
+}
