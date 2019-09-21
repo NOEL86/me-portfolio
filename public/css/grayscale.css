@@ -260,6 +260,18 @@ ul.banner-social-buttons {
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
   }
+  .row {
+    justify-content: center;
+  }
+  .row.one {
+    margin-left: 15%;
+  }
+  .row.two {
+    margin-left: 15%;
+  }
+  #fireVideo {
+    display: none;
+  }
 }
 
 footer {
@@ -321,7 +333,7 @@ img::-moz-selection {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  /* z-index: -1; */
+  width: 100vw;
+  /* height: 100%; */
+  z-index: -1;
 }
