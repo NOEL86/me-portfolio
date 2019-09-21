@@ -197,20 +197,10 @@ a:hover {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.content-section {
+/* .content-section {
   padding-top: 150px;
   padding-bottom: 150px;
-}
-
-.download-section {
-  color: white;
-  background: url("../img/chicagoNight.JPG") no-repeat center center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+} */
 
 /* #map {
   width: 100%;
@@ -218,10 +208,10 @@ a:hover {
 } */
 
 @media (min-width: 992px) {
-  .content-section {
+  /* .content-section {
     padding-top: 200px;
     padding-bottom: 200px;
-  }
+  } */
   /* #map {
     height: 350px;
   } */
@@ -319,4 +309,19 @@ img::-moz-selection {
 
 #bow {
   max-height: 75px;
+}
+.download-section {
+  color: white;
+  min-width: 100vw;
+  position: relative;
+  display: inline-block;
+}
+
+#fireVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: -1; */
 }
